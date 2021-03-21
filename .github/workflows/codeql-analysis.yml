@@ -52,7 +52,7 @@ jobs:
           java-version: ${{ matrix.java }}
 
       - name: Load Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         with:
           path: |
             ~/.gradle/caches
