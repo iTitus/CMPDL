@@ -34,7 +34,7 @@ jobs:
           distribution: ${{ matrix.distribution }}
 
       - name: Load Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.5
         with:
           path: |
             ~/.gradle/caches
